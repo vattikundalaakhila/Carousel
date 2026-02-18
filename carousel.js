@@ -20,6 +20,7 @@ const width = 180; //the widht of the card and this will include width+gap.
 
 
 
+//when right arrow button is clicked
 right_btn.addEventListener("click", ()=>{
     //to allow it to not keep moving after every right click after no cards
   //totalcards(10)- visiblecards(3) so only to show remaining 7 cards the 
@@ -35,6 +36,7 @@ right_btn.addEventListener("click", ()=>{
 }
 )
 
+//when left arrow button is clicked 
 left_btn.addEventListener("click", ()=>{
     if(currentIndex>0){
     currentIndex--;;
