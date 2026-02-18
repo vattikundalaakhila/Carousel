@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body{
+    padding : 30px 40px;
+}
+
+.arrow_buttons{
+    display: flex;
+    justify-content: space-between ;
+    margin: 20px 0px;
+
+
+}
+.carousel_section{
+    overflow: hidden;
+    margin: auto;
+    width: 600px;
+}
+/* overflow hidden is needed only then the cards can be seen after clicking 
+them and cards intially will only be visible according the container width. */
+
+.carousel_cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    transition: all 0.5s ease;
+}
+/* the flex-wrap: nowrap makes the cards stay on the same row so that they
+can be moved left to right when they are clicked */
+
+
+.carousel{
+    width: 150px;
+    border: 1px solid black;
+    padding : 40px 50px;
+}
